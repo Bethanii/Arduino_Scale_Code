@@ -7,7 +7,7 @@ Project instructions:
 
 Hardware used: 
 1. Arduino Uno
-2. HX711
+2. HX711 AD Converter
 3. Breadboard
 4. Wires
 5. Aluminum beam (You can use another metal material, but we chose aluminum because it had the level of rigidity and elasticity that we needed)
