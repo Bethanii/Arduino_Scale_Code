@@ -1,4 +1,3 @@
-//Jason below
 #include "HX711.h"
 #include <HX711.h>
 #include <LiquidCrystal.h>
@@ -15,7 +14,6 @@ LiquidCrystal lcd(7, 6, 10, 11, 12, 13);
 const int pin_DT = 4;
 const int pin_SCK = 5;
 
-//Jacob below
 void setup() {
   Serial.begin(57600);
   lcd.begin(16,2);
@@ -24,7 +22,6 @@ void setup() {
   long zero_factor = scale.read_average();
 }
 
-// Bethany below
 void loop(){ 
     long reading = scale.read_average() * cal_factor;
     float gram =(float)reading/1000000;
